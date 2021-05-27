@@ -9,10 +9,12 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(90, 90, 90);
 }
 h1 {
   text-align: center;
   text-decoration: underline;
+  color: rgb(238, 238, 238);
 }
 .colorPickerContainer {
   display: flex;
@@ -20,6 +22,10 @@ h1 {
 }
 .colorPicker {
   padding: 5rem;
+  border-bottom: 5px solid rgb(145, 145, 145);
+  border-right: 5px solid rgb(145, 145, 145);
+  border-top: 5px solid rgb(180, 180, 180);
+  border-left: 5px solid rgb(180, 180, 180);
 }
 .colorSlider {
   display: flex;
@@ -44,6 +50,7 @@ button {
 }
 p {
   margin: 1.5rem;
+  color: rgb(238, 238, 238);
 }
 input {
   margin: 0.5rem;

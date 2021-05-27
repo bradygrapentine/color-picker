@@ -8,21 +8,27 @@ export class ColorSlider extends Component {
           <button onClick={() => this.props.randomColor()}>
             <strong>Random Color</strong>
           </button>
-          <p>Hue: {this.props.hue}</p>
+          <p>
+            <strong>Hue: {this.props.hue}</strong>
+          </p>
           <input
             type="range"
             max={360}
             value={this.props.hue}
             onChange={this.props.handleHue}
           />
-          <p>Saturation: {this.props.sat}</p>
+          <p>
+            <strong>Saturation: {this.props.sat}</strong>
+          </p>
           <input
             type="range"
             max={100}
             value={this.props.sat}
             onChange={this.props.handleSat}
           />
-          <p>Lightness: {this.props.light}</p>
+          <p>
+            <strong>Lightness: {this.props.light}</strong>
+          </p>
           <input
             type="range"
             max={100}
